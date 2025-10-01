@@ -293,7 +293,6 @@ PXGEONavQC_Version23/
 ├── config.ini                          # Configuration file
 ├── requirements.txt                    # Python dependencies
 ├── README.md                           # This file
-├── CLAUDE.md                           # Developer guide
 ├── icon.png                            # Application icon
 ├── nav_qc.log                          # Runtime log
 │
@@ -591,4 +590,5 @@ For issues or questions:
 
 - Developed for Petrobras marine seismic survey operations
 - Built with PyQt5, pandas, and numpy
+
 - Refactored with assistance from Claude Code (Anthropic)
