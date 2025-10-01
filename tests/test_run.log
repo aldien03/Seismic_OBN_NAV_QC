@@ -1,0 +1,2175 @@
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211', '.mfa', '.pdf', '.sbs', '.sts']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 8
+DEBUG    root:file_renamer.py:120 Loaded 8 rename patterns
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /path/to/custom/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: nonexistent.ini
+ERROR    root:config_manager.py:55 Config file not found: nonexistent.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /tmp/tmp6n4_hwx7.ini
+ERROR    root:config_manager.py:67 Invalid config file format: Missing section headers
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:66 Importing SPS data from /tmp/pytest-of-chnav/pytest-17/test_import_file_success0/test.S01
+INFO     root:data_importers.py:82 Detected 3 header rows
+INFO     root:data_importers.py:154 Successfully imported 2 SPS records
+DEBUG    root:data_importers.py:155 SPS DataFrame - Columns: ['line_name', 'shot_point', 'point_code', 'average_gun_depth', 'water_depth', 'easting_m', 'northing_m', 'day_of_year', 'time_UTC', 'sequence', 'direction', 'year', 'gun_depth_flag', 'gun_timing_flag', 'gun_pressure_flag', 'repeatability_flag', 'sma_flag', 'shot_dither', 'datetime_UTC'], Shape: (2, 19)
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:66 Importing SPS data from /nonexistent/path/file.S01
+ERROR    root:data_importers.py:70 SPS file not found: /nonexistent/path/file.S01
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:66 Importing SPS data from /tmp/pytest-of-chnav/pytest-17/test_header_row_detection0/test.S01
+INFO     root:data_importers.py:82 Detected 3 header rows
+INFO     root:data_importers.py:154 Successfully imported 2 SPS records
+DEBUG    root:data_importers.py:155 SPS DataFrame - Columns: ['line_name', 'shot_point', 'point_code', 'average_gun_depth', 'water_depth', 'easting_m', 'northing_m', 'day_of_year', 'time_UTC', 'sequence', 'direction', 'year', 'gun_depth_flag', 'gun_timing_flag', 'gun_pressure_flag', 'repeatability_flag', 'sma_flag', 'shot_dither', 'datetime_UTC'], Shape: (2, 19)
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:66 Importing SPS data from /tmp/pytest-of-chnav/pytest-17/test_data_type_conversion0/test.S01
+INFO     root:data_importers.py:82 Detected 3 header rows
+INFO     root:data_importers.py:154 Successfully imported 2 SPS records
+DEBUG    root:data_importers.py:155 SPS DataFrame - Columns: ['line_name', 'shot_point', 'point_code', 'average_gun_depth', 'water_depth', 'easting_m', 'northing_m', 'day_of_year', 'time_UTC', 'sequence', 'direction', 'year', 'gun_depth_flag', 'gun_timing_flag', 'gun_pressure_flag', 'repeatability_flag', 'sma_flag', 'shot_dither', 'datetime_UTC'], Shape: (2, 19)
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:66 Importing SPS data from /tmp/pytest-of-chnav/pytest-17/test_shot_dither_included0/test.S01
+INFO     root:data_importers.py:82 Detected 3 header rows
+INFO     root:data_importers.py:154 Successfully imported 2 SPS records
+DEBUG    root:data_importers.py:155 SPS DataFrame - Columns: ['line_name', 'shot_point', 'point_code', 'average_gun_depth', 'water_depth', 'easting_m', 'northing_m', 'day_of_year', 'time_UTC', 'sequence', 'direction', 'year', 'gun_depth_flag', 'gun_timing_flag', 'gun_pressure_flag', 'repeatability_flag', 'sma_flag', 'shot_dither', 'datetime_UTC'], Shape: (2, 19)
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:224 Successfully imported 2 SPS_Comp records
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+ERROR    root:data_importers.py:185 Processed folder not found: /tmp/pytest-of-chnav/pytest-17/test_import_file_no_processed_0/Processed
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+WARNING  root:data_importers.py:227 No matching SPS_Comp file found
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:276 Successfully imported 2 EOL records
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+WARNING  root:data_importers.py:279 No matching EOL report file found
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:329 Successfully imported 2 ASC records
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+WARNING  root:data_importers.py:332 No matching ASC file found
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:329 Successfully imported 2 ASC records
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:410 Successfully imported 2 SBS records
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:410 Successfully imported 2 SBS records
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+WARNING  root:data_importers.py:413 No matching SBS file found
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:410 Successfully imported 2 SBS records
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from config.ini
+INFO     root:data_importers.py:66 Importing SPS data from /tmp/pytest-of-chnav/pytest-17/test_all_importers_return_data0
+ERROR    root:data_importers.py:160 Error importing SPS data: [Errno 21] Is a directory: '/tmp/pytest-of-chnav/pytest-17/test_all_importers_return_data0'
+WARNING  root:data_importers.py:227 No matching SPS_Comp file found
+WARNING  root:data_importers.py:279 No matching EOL report file found
+WARNING  root:data_importers.py:332 No matching ASC file found
+WARNING  root:data_importers.py:413 No matching SBS file found
+DEBUG    root:database_operations.py:85 Extracted sequence: 0256
+DEBUG    root:database_operations.py:104 Extracted line name: 3184P31885 -> 3184
+DEBUG    root:database_operations.py:111 Generated filename: 0256_3184_DB.csv
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmpk8rr7ij7
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmpk8rr7ij7
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmpk8rr7ij7
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmpk8rr7ij7/0256_3184_DB.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmpk8rr7ij7/0256_3184_DB.csv
+DEBUG    root:database_operations.py:194 File size: 222 bytes
+DEBUG    root:database_operations.py:85 Extracted sequence: 0256
+DEBUG    root:database_operations.py:104 Extracted line name: 3184 -> 3184
+DEBUG    root:database_operations.py:111 Generated filename: 0256_3184_DB.csv
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmp1jov4z5a
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmp1jov4z5a
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmp1jov4z5a
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmp1jov4z5a/0256_3184_DB.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmp1jov4z5a/0256_3184_DB.csv
+DEBUG    root:database_operations.py:194 File size: 58 bytes
+ERROR    root:database_operations.py:64 Invalid results: expected dict, got <class 'str'>
+ERROR    root:database_operations.py:69 Invalid or missing DataFrame in results
+ERROR    root:database_operations.py:73 DataFrame is empty
+ERROR    root:database_operations.py:79 Missing required columns: ['sequence', 'line_name']
+ERROR    root:database_operations.py:87 Failed to extract sequence: invalid literal for int() with base 10: 'invalid'
+DEBUG    root:database_operations.py:85 Extracted sequence: 0256
+ERROR    root:database_operations.py:94 Line name is NA/null
+DEBUG    root:database_operations.py:85 Extracted sequence: 0256
+DEBUG    root:database_operations.py:104 Extracted line name: 3184P31885 -> 3184
+DEBUG    root:database_operations.py:111 Generated filename: 0256_3184_DB.csv
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmpkdlbwbgg
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmpkdlbwbgg
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmpkdlbwbgg
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmpkdlbwbgg/0256_3184_DB.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmpkdlbwbgg/0256_3184_DB.csv
+DEBUG    root:database_operations.py:194 File size: 222 bytes
+DEBUG    root:database_operations.py:85 Extracted sequence: 0256
+DEBUG    root:database_operations.py:104 Extracted line name: 3184P31885 -> 3184
+DEBUG    root:database_operations.py:111 Generated filename: 0256_3184_DB.csv
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmpkdlbwbgg
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmpkdlbwbgg
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmpkdlbwbgg
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmpkdlbwbgg/0256_3184_DB.csv
+WARNING  root:database_operations.py:178 File already exists, will overwrite: /tmp/tmpkdlbwbgg/0256_3184_DB.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmpkdlbwbgg/0256_3184_DB.csv
+DEBUG    root:database_operations.py:194 File size: 222 bytes
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmplh1tercl
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmplh1tercl
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmplh1tercl
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmplh1tercl/0256_3184_DB.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmplh1tercl/0256_3184_DB.csv
+DEBUG    root:database_operations.py:194 File size: 222 bytes
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmprt6h3b_c/subdir/nested
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmprt6h3b_c/subdir/nested
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmprt6h3b_c/subdir/nested
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmprt6h3b_c/subdir/nested/0256_3184_DB.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmprt6h3b_c/subdir/nested/0256_3184_DB.csv
+DEBUG    root:database_operations.py:194 File size: 222 bytes
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /invalid/nonexistent/path
+INFO     root:database_operations.py:162 Using output directory: /invalid/nonexistent/path
+WARNING  root:database_operations.py:169 Failed to create directory /invalid/nonexistent/path: [Errno 13] Permission denied: '/invalid'
+WARNING  root:database_operations.py:160 No database path configured, using default: C:\SWAT_DB_Default
+INFO     root:database_operations.py:162 Using output directory: C:\SWAT_DB_Default
+DEBUG    root:database_operations.py:167 Ensured directory exists: C:\SWAT_DB_Default
+INFO     root:database_operations.py:174 Attempting to save to: C:\SWAT_DB_Default/0256_3184_DB.csv
+INFO     root:database_operations.py:182 Results saved to: C:\SWAT_DB_Default/0256_3184_DB.csv
+DEBUG    root:database_operations.py:194 File size: 222 bytes
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmpjxqfoojc
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmpjxqfoojc
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmpjxqfoojc
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmpjxqfoojc/test.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmpjxqfoojc/test.csv
+DEBUG    root:database_operations.py:194 File size: 19 bytes
+INFO     root:database_operations.py:215 Attempting fallback save to: /tmp/tmpgdzq8smt/0256_3184_DB.csv
+INFO     root:database_operations.py:224 Successfully saved to fallback location: /tmp/tmpgdzq8smt/0256_3184_DB.csv
+INFO     root:database_operations.py:215 Attempting fallback save to: /tmp/tmp8vs5scry/test.csv
+INFO     root:database_operations.py:224 Successfully saved to fallback location: /tmp/tmp8vs5scry/test.csv
+DEBUG    root:database_operations.py:85 Extracted sequence: 0256
+DEBUG    root:database_operations.py:104 Extracted line name: 3184 -> 3184
+DEBUG    root:database_operations.py:111 Generated filename: 0256_3184_DB.csv
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmp5cs3czlf
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmp5cs3czlf
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmp5cs3czlf
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmp5cs3czlf/0256_3184_DB.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmp5cs3czlf/0256_3184_DB.csv
+DEBUG    root:database_operations.py:194 File size: 58 bytes
+DEBUG    root:database_operations.py:85 Extracted sequence: 0005
+DEBUG    root:database_operations.py:104 Extracted line name: 3184 -> 3184
+DEBUG    root:database_operations.py:111 Generated filename: 0005_3184_DB.csv
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmp3xjlbxx4
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmp3xjlbxx4
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmp3xjlbxx4
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmp3xjlbxx4/0005_3184_DB.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmp3xjlbxx4/0005_3184_DB.csv
+DEBUG    root:database_operations.py:194 File size: 54 bytes
+DEBUG    root:database_operations.py:85 Extracted sequence: 0256
+DEBUG    root:database_operations.py:104 Extracted line name: 3184 -> 3184
+DEBUG    root:database_operations.py:111 Generated filename: 0256_3184_DB.csv
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmpbm0r8y0g
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmpbm0r8y0g
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmpbm0r8y0g
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmpbm0r8y0g/0256_3184_DB.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmpbm0r8y0g/0256_3184_DB.csv
+DEBUG    root:database_operations.py:194 File size: 58 bytes
+DEBUG    root:database_operations.py:85 Extracted sequence: 0256
+DEBUG    root:database_operations.py:104 Extracted line name: 3184P31885 -> 3184
+DEBUG    root:database_operations.py:111 Generated filename: 0256_3184_DB.csv
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmpjsdccotd
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmpjsdccotd
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmpjsdccotd
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmpjsdccotd/0256_3184_DB.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmpjsdccotd/0256_3184_DB.csv
+DEBUG    root:database_operations.py:194 File size: 70 bytes
+DEBUG    root:database_operations.py:85 Extracted sequence: 0256
+ERROR    root:database_operations.py:102 Could not extract digits from line name: ABCD
+ERROR    root:database_operations.py:64 Invalid results: expected dict, got <class 'NoneType'>
+ERROR    root:database_operations.py:73 DataFrame is empty
+DEBUG    root:database_operations.py:85 Extracted sequence: 0256
+DEBUG    root:database_operations.py:104 Extracted line name: 3184P31885 -> 3184
+DEBUG    root:database_operations.py:111 Generated filename: 0256_3184_DB.csv
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmptacu49af
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmptacu49af
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmptacu49af
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmptacu49af/0256_3184_DB.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmptacu49af/0256_3184_DB.csv
+DEBUG    root:database_operations.py:194 File size: 70 bytes
+DEBUG    root:database_operations.py:85 Extracted sequence: 0001
+DEBUG    root:database_operations.py:104 Extracted line name: 42 -> 42
+DEBUG    root:database_operations.py:111 Generated filename: 0001_42_DB.csv
+DEBUG    root:database_operations.py:155 Using db_output_path from [Paths] section (legacy): /tmp/tmpyz9zrksn
+INFO     root:database_operations.py:162 Using output directory: /tmp/tmpyz9zrksn
+DEBUG    root:database_operations.py:167 Ensured directory exists: /tmp/tmpyz9zrksn
+INFO     root:database_operations.py:174 Attempting to save to: /tmp/tmpyz9zrksn/0001_42_DB.csv
+INFO     root:database_operations.py:182 Results saved to: /tmp/tmpyz9zrksn/0001_42_DB.csv
+DEBUG    root:database_operations.py:194 File size: 50 bytes
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Processed_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: processed_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: processed_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.csv', '.S01']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 2
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}.*\.(csv|S01)$
+DEBUG    root:file_renamer.py:120 Loaded 2 rename patterns
+ERROR    root:file_renamer.py:64 Config section Nonexistent_Section not found
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Test
+DEBUG    root:file_renamer.py:77 Using extensions key: processed_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: processed_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: []
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 0
+ERROR    root:file_renamer.py:117 Invalid regex pattern in bad_pattern: unterminated character set at position 1
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 4 files in directory /tmp/tmpqns67hk9
+DEBUG    root:file_renamer.py:221 Renaming 3184P31885.S00 to 0256-3184P31885.S00 using pattern s00_pattern
+DEBUG    root:file_renamer.py:221 Renaming 3184P31885.0.p294 to 0256-3184P31885.p294 using pattern p294_pattern
+DEBUG    root:file_renamer.py:221 Renaming 3184P31885.0.p190 to 0256-3184P31885.p190 using pattern p190_pattern
+DEBUG    root:file_renamer.py:221 Renaming 3184P31885.p211 to 0256-3184P31885.p211 using pattern p211_pattern
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 2 files in directory /tmp/tmpmzb_nh_b
+WARNING  root:file_renamer.py:185 Missing file types: .s00, .p211
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 2 files in directory /tmp/tmp0i1ldkep
+WARNING  root:file_renamer.py:185 Missing file types: .s00, .p211, .p294
+ERROR    root:file_renamer.py:215 Cannot rename 3184P31885.0.p190 to 0256-3184P31885.p190 - target file already exists
+ERROR    root:file_renamer.py:154 Directory not found: /nonexistent/directory
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Processed_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: processed_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: processed_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.csv', '.S01']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 2
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}.*\.(csv|S01)$
+DEBUG    root:file_renamer.py:120 Loaded 2 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Processed_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Processed_Files': 2}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Processed_Files': ['.csv', '.S01']}
+DEBUG    root:file_renamer.py:177 Found 2 files in directory /tmp/tmpcc0x1bdy
+DEBUG    root:file_renamer.py:221 Renaming 3184P31885.S01 to 0256-3184P31885.S01 using pattern s01_pattern
+DEBUG    root:file_renamer.py:221 Renaming seq0256_027_3184P31885_EOL_report.csv to 0256-3184P31885_EOL_report.csv using pattern eol_csv_pattern
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Processed_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: processed_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: processed_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.csv', '.S01']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 2
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}.*\.(csv|S01)$
+DEBUG    root:file_renamer.py:120 Loaded 2 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Processed_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Processed_Files': 2}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Processed_Files': ['.csv', '.S01']}
+DEBUG    root:file_renamer.py:177 Found 2 files in directory /tmp/tmp1cyqksh8
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 2 files in directory /tmp/tmpfe25apof
+WARNING  root:file_renamer.py:185 Missing file types: .s00, .p211
+DEBUG    root:file_renamer.py:221 Renaming 3184P31885.0.p294 to 0256-3184P31885.p294 using pattern p294_pattern
+DEBUG    root:file_renamer.py:221 Renaming 3184P31885.0.p190 to 0256-3184P31885.p190 using pattern p190_pattern
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 1 files in directory /tmp/tmp14zcor_d
+WARNING  root:file_renamer.py:185 Missing file types: .s00, .p211, .p294
+DEBUG    root:file_renamer.py:221 Renaming 3184P31885.0.p190 to 0256-3184P31885.p190 using pattern p190_pattern
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 1 files in directory /tmp/tmphja948xu
+WARNING  root:file_renamer.py:185 Missing file types: .s00, .p211, .p294
+DEBUG    root:file_renamer.py:221 Renaming 3184P31886.0.p190 to 0256-3184P31886.p190 using pattern p190_pattern
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 1 files in directory /tmp/tmp1rgmm_tu
+WARNING  root:file_renamer.py:185 Missing file types: .s00, .p211, .p294
+DEBUG    root:file_renamer.py:221 Renaming 3184P31885.0.p190 to 0256-3184P31885.p190 using pattern p190_pattern
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 1 files in directory /tmp/tmpldqad65_
+WARNING  root:file_renamer.py:185 Missing file types: .s00, .p211, .p294
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 2 files in directory /tmp/tmprzkwag44
+WARNING  root:file_renamer.py:185 Missing file types: .s00, .p211, .p294
+ERROR    root:file_renamer.py:215 Cannot rename 3184P31885.0.p190 to 0256-3184P31885.p190 - target file already exists
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 1 files in directory /tmp/tmpea87irk2
+WARNING  root:file_renamer.py:185 Missing file types: .s00, .p211, .p294
+DEBUG    root:file_renamer.py:221 Renaming 3184P31885.0.p190 to 0256-3184P31885.p190 using pattern p190_pattern
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 1 files in directory /tmp/tmpqi4hl4p2
+WARNING  root:file_renamer.py:185 Missing file types: .s00, .p211, .p190
+DEBUG    root:file_renamer.py:221 Renaming 3184P31885.0.p294 to 0256-3184P31885.p294 using pattern p294_pattern
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 1 files in directory /tmp/tmps4x8bt75
+WARNING  root:file_renamer.py:185 Missing file types: .p190, .p211, .p294
+DEBUG    root:file_renamer.py:221 Renaming 3184P31885.S00 to 0256-3184P31885.S00 using pattern s00_pattern
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 1 files in directory /tmp/tmpc_dwabc1
+WARNING  root:file_renamer.py:185 Missing file types: .s00, .p211, .p294
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 0 files in directory /tmp/tmpx6f0rh3m
+WARNING  root:file_renamer.py:185 Missing file types: .p294, .s00, .p211, .p190
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 1 files in directory /tmp/tmp7iqignzl
+WARNING  root:file_renamer.py:185 Missing file types: .p190, .s00, .p211, .p294
+DEBUG    root:file_renamer.py:76 Loading config for section Rename_Raw_Files
+DEBUG    root:file_renamer.py:77 Using extensions key: raw_expected_extensions
+DEBUG    root:file_renamer.py:78 Using file number key: raw_expected_file_number
+DEBUG    root:file_renamer.py:83 Loaded extensions: ['.p190', '.p294', '.S00', '.p211']
+DEBUG    root:file_renamer.py:87 Loaded expected file number: 4
+DEBUG    root:file_renamer.py:95 Loaded already compliant pattern: ^0256-\d{4}P\d{5}\.(p190|p294|S00|p211)$
+DEBUG    root:file_renamer.py:120 Loaded 4 rename patterns
+DEBUG    root:file_renamer.py:166 Config section: Rename_Raw_Files
+DEBUG    root:file_renamer.py:167 Expected file numbers: {'Rename_Raw_Files': 4}
+DEBUG    root:file_renamer.py:168 Expected extensions: {'Rename_Raw_Files': ['.p190', '.p294', '.S00', '.p211']}
+DEBUG    root:file_renamer.py:177 Found 2 files in directory /tmp/tmpfpif3a_t
+WARNING  root:file_renamer.py:185 Missing file types: .p190, .s00, .p211, .p294
+ERROR    root:gui_helpers.py:49 Test: Message
+INFO     root:gui_helpers.py:193 Operation cancelled by user
+INFO     root:gui_helpers.py:193 Operation cancelled by user
+INFO     root:gui_helpers.py:193 Operation cancelled by user
+INFO     root:gui_helpers.py:254 Worker thread cancellation requested
+INFO     root:gui_helpers.py:263 Starting QC worker thread
+INFO     root:gui_helpers.py:273 Worker thread completed successfully
+INFO     root:gui_helpers.py:263 Starting QC worker thread
+INFO     root:gui_helpers.py:273 Worker thread completed successfully
+INFO     root:gui_helpers.py:254 Worker thread cancellation requested
+INFO     root:gui_helpers.py:263 Starting QC worker thread
+INFO     root:gui_helpers.py:270 Worker thread was cancelled
+INFO     root:gui_helpers.py:263 Starting QC worker thread
+ERROR    root:gui_helpers.py:278 Error in worker thread: Test error
+Traceback (most recent call last):
+  File "/mnt/c/00_QGIS_GM/PXGEONavQC_Version23/gui_helpers.py", line 267, in run
+    results = self.qc_function(*self.args, worker_thread=self, **self.kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1193, in _execute_mock_call
+    raise effect
+ValueError: Test error
+INFO     root:gui_helpers.py:263 Starting QC worker thread
+INFO     root:gui_helpers.py:273 Worker thread completed successfully
+INFO     root:gui_helpers.py:263 Starting QC worker thread
+INFO     root:gui_helpers.py:273 Worker thread completed successfully
+INFO     root:gui_helpers.py:193 Operation cancelled by user
+INFO     root:gui_helpers.py:254 Worker thread cancellation requested
+DEBUG    root:line_log_manager.py:66 Found 1 Line Log files
+DEBUG    root:line_log_manager.py:73 Line Log path: /tmp/pytest-of-chnav/pytest-17/test_find_file_success0/0256-3184P31885_Nav_LineLog.xlsm
+WARNING  root:line_log_manager.py:62 Invalid directory: /nonexistent/directory
+DEBUG    root:line_log_manager.py:66 Found 0 Line Log files
+WARNING  root:line_log_manager.py:69 Line Log file not found in directory
+DEBUG    root:line_log_manager.py:66 Found 2 Line Log files
+DEBUG    root:line_log_manager.py:73 Line Log path: /tmp/pytest-of-chnav/pytest-17/test_find_file_multiple_files_0/0256-3184P31885_Nav_LineLog.xlsm
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+ERROR    root:line_log_manager.py:100 Failed to open Line Log: [Errno 2] No such file or directory: '/nonexistent/file.xlsm'
+INFO     root:line_log_manager.py:306 log_autofires in log_data: [1005]
+INFO     root:line_log_manager.py:310 log_data: {'log_sub_array_sep_flag': [1001, 1003], 'log_gun_depth_flag': [1002], 'log_autofires': [1005], 'log_timing_warning': [(1001, ['G1', 'G2'])], 'log_repeatability_flag': [1001, 1003, 1005, 1007], 'log_consec_7_source_errors': ['1010-1024']}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Sub-Array Sep <6.8m or >9.2m: 1001, 1003', 'SP with Gun Depth <6m or >8m: 1002', 'SP with suspected autofire: 1005', 'SP with Gun Timing >1.0ms and <=1.5ms: 1001 (G1,G2)', 'SP with Radial >10.0m: Total 4 SP. 1001-1007', '7+ Consecutive SP with Source Errors: 1010-1024']
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {}
+INFO     root:line_log_manager.py:351 additional_info: ['Missing SP: 1001, 1002, 1003']
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {'log_timing_warning': [(1001, ['G1', 'G2']), (1003, ['G3'])], 'log_timing_error': [(1005, ['G4', 'G5'])]}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Gun Timing >1.0ms and <=1.5ms: 1001 (G1,G2), 1003 (G3)', 'SP with Gun Timing >1.5ms: 1005 (G4,G5)']
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {'log_repeatability_flag': [1001, 1003, 1005, 1007]}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Radial >10.0m: Total 4 SP. 1001-1007']
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {'log_gun_timing_flag': [1001, 1002, 1003], 'log_gun_depth_flag': [1005]}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Gun Depth <6m or >8m: 1005']
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {'log_gun_depth_sensor_violation': ['Sensor 1: 1001-1003', 'Sensor 2: 1005-1007']}
+INFO     root:line_log_manager.py:351 additional_info: ['Gun Depth Sensor Violations: Sensor 1: 1001-1003, Sensor 2: 1005-1007']
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {'log_consec_7_source_errors': ['1010-1024'], 'log_window_12_of_24_source_errors': ['1030-1054'], 'log_window_16_of_40_source_errors': ['1060-1100']}
+INFO     root:line_log_manager.py:351 additional_info: ['7+ Consecutive SP with Source Errors: 1010-1024', '12+ Source Errors in 24 SP Window: 1030-1054', '16+ Source Errors in 40 SP Window: 1060-1100']
+ERROR    root:line_log_manager.py:100 Failed to open Line Log: [Errno 2] No such file or directory: '/nonexistent/file.xlsm'
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:138 Updating Line Log content
+DEBUG    root:line_log_manager.py:143 Updating date in E6 to: 01-Oct-25
+INFO     root:line_log_manager.py:306 log_autofires in log_data: [1005]
+INFO     root:line_log_manager.py:310 log_data: {'log_sub_array_sep_flag': [1001, 1003], 'log_gun_depth_flag': [1002], 'log_autofires': [1005], 'log_timing_warning': [(1001, ['G1', 'G2'])], 'log_repeatability_flag': [1001, 1003, 1005, 1007], 'log_consec_7_source_errors': ['1010-1024']}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Sub-Array Sep <6.8m or >9.2m: 1001, 1003', 'SP with Gun Depth <6m or >8m: 1002', 'SP with suspected autofire: 1005', 'SP with Gun Timing >1.0ms and <=1.5ms: 1001 (G1,G2)', 'SP with Radial >10.0m: Total 4 SP. 1001-1007', '7+ Consecutive SP with Source Errors: 1010-1024']
+DEBUG    root:line_log_manager.py:162 Successfully saved Line Log
+DEBUG    root:line_log_manager.py:177 Closed Line Log workbook
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:138 Updating Line Log content
+INFO     root:line_log_manager.py:306 log_autofires in log_data: [1005]
+INFO     root:line_log_manager.py:310 log_data: {'log_sub_array_sep_flag': [1001, 1003], 'log_gun_depth_flag': [1002], 'log_autofires': [1005], 'log_timing_warning': [(1001, ['G1', 'G2'])], 'log_repeatability_flag': [1001, 1003, 1005, 1007], 'log_consec_7_source_errors': ['1010-1024']}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Sub-Array Sep <6.8m or >9.2m: 1001, 1003', 'SP with Gun Depth <6m or >8m: 1002', 'SP with suspected autofire: 1005', 'SP with Gun Timing >1.0ms and <=1.5ms: 1001 (G1,G2)', 'SP with Radial >10.0m: Total 4 SP. 1001-1007', '7+ Consecutive SP with Source Errors: 1010-1024']
+DEBUG    root:line_log_manager.py:162 Successfully saved Line Log
+DEBUG    root:line_log_manager.py:177 Closed Line Log workbook
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:138 Updating Line Log content
+DEBUG    root:line_log_manager.py:143 Updating date in E6 to: 01-Oct-25
+INFO     root:line_log_manager.py:306 log_autofires in log_data: [1005]
+INFO     root:line_log_manager.py:310 log_data: {'log_sub_array_sep_flag': [1001, 1003], 'log_gun_depth_flag': [1002], 'log_autofires': [1005], 'log_timing_warning': [(1001, ['G1', 'G2'])], 'log_repeatability_flag': [1001, 1003, 1005, 1007], 'log_consec_7_source_errors': ['1010-1024']}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Sub-Array Sep <6.8m or >9.2m: 1001, 1003', 'SP with Gun Depth <6m or >8m: 1002', 'SP with suspected autofire: 1005', 'SP with Gun Timing >1.0ms and <=1.5ms: 1001 (G1,G2)', 'SP with Radial >10.0m: Total 4 SP. 1001-1007', '7+ Consecutive SP with Source Errors: 1010-1024']
+ERROR    root:line_log_manager.py:156 Could not find 'Acquisition and Processing Comments' in the Line Log
+DEBUG    root:line_log_manager.py:177 Closed Line Log workbook
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {}
+INFO     root:line_log_manager.py:351 additional_info: []
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {}
+INFO     root:line_log_manager.py:351 additional_info: []
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FASP at row 18: SP=6735, Time=08:34:00
+DEBUG    root:line_log_manager.py:655 Found FOSP at row 19: SP=6803, Time=08:37:00
+DEBUG    root:line_log_manager.py:655 Found LOSP at row 20: SP=6821, Time=08:38:00
+DEBUG    root:line_log_manager.py:655 Found FGSP at row 21: SP=6823, Time=08:39:00
+DEBUG    root:line_log_manager.py:655 Found LGSP at row 23: SP=7871, Time=09:34:00
+DEBUG    root:line_log_manager.py:655 Found LSP at row 25: SP=8000, Time=10:00:00
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FASP at row 18: SP=6735, Time=08:34:00
+DEBUG    root:line_log_manager.py:655 Found FGSP at row 21: SP=6823, Time=08:39:00
+DEBUG    root:line_log_manager.py:655 Found LGSP at row 23: SP=7871, Time=09:34:00
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FASP at row 18: SP=6735, Time=08:34:00
+DEBUG    root:line_log_manager.py:655 Found FGSP at row 21: SP=6823, Time=08:39:00
+DEBUG    root:line_log_manager.py:655 Found LGSP at row 23: SP=7871, Time=09:34:00
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FASP at row 18: SP=6735, Time=08:34:00
+DEBUG    root:line_log_manager.py:655 Found FGSP at row 21: SP=6823, Time=08:39:00
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+WARNING  root:line_log_manager.py:645 Could not parse SP at row 18: invalid
+DEBUG    root:line_log_manager.py:655 Found FASP at row 18: SP=None, Time=08:34:00
+DEBUG    root:line_log_manager.py:655 Found FGSP at row 21: SP=6823, Time=08:39:00
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FASP at row 10: SP=6735, Time=08:34:00
+DEBUG    root:line_log_manager.py:655 Found FGSP at row 30: SP=6823, Time=08:39:00
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FGSP at row 30: SP=6823, Time=08:39:00
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FASP at row 18: SP=6735, Time=08:34:00
+DEBUG    root:line_log_manager.py:655 Found FGSP at row 21: SP=6823, Time=08:39:00
+DEBUG    root:line_log_manager.py:655 Found LGSP at row 23: SP=7871, Time=09:34:00
+ERROR    root:line_log_manager.py:100 Failed to open Line Log: [Errno 2] No such file or directory: '/nonexistent/path.xlsm'
+ERROR    root:line_log_manager.py:616 Failed to open workbook for marker extraction
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FASP at row 18: SP=6735, Time=08:34:00
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FASP at row 18: SP=6735, Time=08:34:00
+DEBUG    root:line_log_manager.py:655 Found FOSP at row 19: SP=6803, Time=08:37:00
+DEBUG    root:line_log_manager.py:655 Found LOSP at row 20: SP=6821, Time=08:38:00
+DEBUG    root:line_log_manager.py:655 Found FGSP at row 21: SP=6823, Time=08:39:00
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FASP at row 18: SP=6735, Time=08:34:00
+DEBUG    root:line_log_manager.py:655 Found FGSP at row 21: SP=6823, Time=08:39:00
+WARNING  root:line_log_manager.py:444 Could not parse cell C6 as int: 3184P31885
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FASP at row 18: SP=6735, Time=08:34:00
+DEBUG    root:line_log_manager.py:655 Found FGSP at row 21: SP=6823, Time=08:39:00
+DEBUG    root:line_log_manager.py:655 Found LGSP at row 23: SP=7871, Time=09:34:00
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:539 Calculated production SP: 525 (FGSP=6823, LGSP=7871, increment=2)
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FASP at row 18: SP=6735, Time=08:34:00
+DEBUG    root:line_log_manager.py:655 Found FOSP at row 19: SP=6803, Time=08:37:00
+DEBUG    root:line_log_manager.py:655 Found LOSP at row 20: SP=6821, Time=08:38:00
+DEBUG    root:line_log_manager.py:655 Found FGSP at row 21: SP=6823, Time=08:39:00
+DEBUG    root:line_log_manager.py:655 Found LGSP at row 23: SP=7871, Time=09:34:00
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:539 Calculated production SP: 525 (FGSP=6823, LGSP=7871, increment=2)
+DEBUG    root:line_log_manager.py:552 Calculated overlap SP: 10 (FOSP=6803, LOSP=6821)
+ERROR    root:line_log_manager.py:100 Failed to open Line Log: [Errno 2] No such file or directory: '/nonexistent/file.xlsm'
+ERROR    root:line_log_manager.py:616 Failed to open workbook for marker extraction
+ERROR    root:line_log_manager.py:100 Failed to open Line Log: [Errno 2] No such file or directory: '/nonexistent/file.xlsm'
+ERROR    root:line_log_manager.py:515 Failed to open workbook for line info extraction
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:655 Found FASP at row 18: SP=6735, Time=08:34:00
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+WARNING  root:line_log_manager.py:94 Line Log file is locked, attempt 1 of 5
+WARNING  root:line_log_manager.py:94 Line Log file is locked, attempt 2 of 5
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 3
+WARNING  root:line_log_manager.py:94 Line Log file is locked, attempt 1 of 5
+WARNING  root:line_log_manager.py:94 Line Log file is locked, attempt 2 of 5
+WARNING  root:line_log_manager.py:94 Line Log file is locked, attempt 3 of 5
+WARNING  root:line_log_manager.py:94 Line Log file is locked, attempt 4 of 5
+ERROR    root:line_log_manager.py:97 Unable to open Line Log file after multiple attempts
+ERROR    root:line_log_manager.py:100 Failed to open Line Log: Corrupt file
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:138 Updating Line Log content
+DEBUG    root:line_log_manager.py:143 Updating date in E6 to: 01-Oct-25
+INFO     root:line_log_manager.py:306 log_autofires in log_data: [1005]
+INFO     root:line_log_manager.py:310 log_data: {'log_sub_array_sep_flag': [1001, 1003], 'log_gun_depth_flag': [1002], 'log_autofires': [1005], 'log_timing_warning': [(1001, ['G1', 'G2'])], 'log_repeatability_flag': [1001, 1003, 1005, 1007], 'log_consec_7_source_errors': ['1010-1024']}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Sub-Array Sep <6.8m or >9.2m: 1001, 1003', 'SP with Gun Depth <6m or >8m: 1002', 'SP with suspected autofire: 1005', 'SP with Gun Timing >1.0ms and <=1.5ms: 1001 (G1,G2)', 'SP with Radial >10.0m: Total 4 SP. 1001-1007', '7+ Consecutive SP with Source Errors: 1010-1024']
+ERROR    root:line_log_manager.py:165 PermissionError when saving Line Log
+DEBUG    root:line_log_manager.py:177 Closed Line Log workbook
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:138 Updating Line Log content
+DEBUG    root:line_log_manager.py:143 Updating date in E6 to: 01-Oct-25
+INFO     root:line_log_manager.py:306 log_autofires in log_data: [1005]
+INFO     root:line_log_manager.py:310 log_data: {'log_sub_array_sep_flag': [1001, 1003], 'log_gun_depth_flag': [1002], 'log_autofires': [1005], 'log_timing_warning': [(1001, ['G1', 'G2'])], 'log_repeatability_flag': [1001, 1003, 1005, 1007], 'log_consec_7_source_errors': ['1010-1024']}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Sub-Array Sep <6.8m or >9.2m: 1001, 1003', 'SP with Gun Depth <6m or >8m: 1002', 'SP with suspected autofire: 1005', 'SP with Gun Timing >1.0ms and <=1.5ms: 1001 (G1,G2)', 'SP with Radial >10.0m: Total 4 SP. 1001-1007', '7+ Consecutive SP with Source Errors: 1010-1024']
+ERROR    root:line_log_manager.py:168 Failed to save Line Log: Disk full
+DEBUG    root:line_log_manager.py:177 Closed Line Log workbook
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {'log_sub_array_sep_percent_violation': '15.5% of SP violate threshold', 'log_sub_array_sep_avg_violation': 'Sequence average 9.1m exceeds 8.8m', 'log_percent_3_total_source_errors': '3.5% of total SP have source errors'}
+INFO     root:line_log_manager.py:351 additional_info: ['Sub-Array Separation Percentage Violation: 15.5% of SP violate threshold', 'Sub-Array Separation Sequence Average Violation: Sequence average 9.1m exceeds 8.8m', 'Source Errors Exceed 3% of Total SP: 3.5% of total SP have source errors']
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+DEBUG    root:line_log_manager.py:90 Successfully opened Line Log file on attempt 1
+ERROR    root:line_log_manager.py:557 Error extracting line info: Error reading cell
+INFO     root:line_log_manager.py:304 Filtered log_data to production range FGSP=6820 to LGSP=6880
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {'log_gun_depth_flag': [6825, 6850, 6875], 'log_repeatability_flag': [6830, 6850, 6870]}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Gun Depth <6m or >8m: 6825, 6850, 6875', 'SP with Radial >10.0m: Total 3 SP. 6830, 6850, 6870']
+INFO     root:line_log_manager.py:304 Filtered log_data to production range FGSP=6823 to LGSP=7871
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {'log_gun_depth_flag': [6850]}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Gun Depth <6m or >8m: 6850']
+INFO     root:line_log_manager.py:359 Added overlap comment: SP 6803-6821
+INFO     root:line_log_manager.py:304 Filtered log_data to production range FGSP=6823 to LGSP=7871
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {'log_gun_depth_flag': [6850]}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Gun Depth <6m or >8m: 6850']
+INFO     root:line_log_manager.py:306 log_autofires in log_data: []
+INFO     root:line_log_manager.py:310 log_data: {'log_gun_depth_flag': [6800, 6825, 6850]}
+INFO     root:line_log_manager.py:351 additional_info: ['SP with Gun Depth <6m or >8m: 6800, 6825, 6850']
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+WARNING  root:qc_report_generator.py:136 Dither file not found at: N:\05_Internal_use_only\Scripts\PXGEONavQC_Version30\5-1_MT3007924_MMBC_TimeDithers.txt
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+WARNING  root:qc_report_generator.py:136 Dither file not found at: N:\05_Internal_use_only\Scripts\PXGEONavQC_Version30\5-1_MT3007924_MMBC_TimeDithers.txt
+INFO     root:qc_report_generator.py:309 Dither detection summary: 1 missing detected, 0 suggestions provided
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+WARNING  root:qc_report_generator.py:136 Dither file not found at: N:\05_Internal_use_only\Scripts\PXGEONavQC_Version30\5-1_MT3007924_MMBC_TimeDithers.txt
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:qc_report_generator.py:1014 Calculating error percentages...
+INFO     root:qc_report_generator.py:1027 Using all shot points, Total SP count=6
+INFO     root:qc_report_generator.py:1059 sti_flag: Total=1 (16.67%), Errors=1, Warnings=0
+INFO     root:qc_report_generator.py:1059 sub_array_sep_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 cos_sep_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 volume_flag: Total=2 (33.33%), Errors=2, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_depth_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_pressure_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_timing_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 repeatability_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 sma_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1091 Overall QC Statistics:
+INFO     root:qc_report_generator.py:1092   Total Records: 6, Total Flags: 6
+INFO     root:qc_report_generator.py:1093   Error Rate: 5.56%
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:qc_report_generator.py:1014 Calculating error percentages...
+INFO     root:qc_report_generator.py:1027 Using all shot points, Total SP count=3
+INFO     root:qc_report_generator.py:1059 sti_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 sub_array_sep_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 cos_sep_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 volume_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_depth_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_pressure_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_timing_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 repeatability_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 sma_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1091 Overall QC Statistics:
+INFO     root:qc_report_generator.py:1092   Total Records: 3, Total Flags: 0
+INFO     root:qc_report_generator.py:1093   Error Rate: 0.00%
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:qc_report_generator.py:1014 Calculating error percentages...
+INFO     root:qc_report_generator.py:1027 Using all shot points, Total SP count=3
+INFO     root:qc_report_generator.py:1059 sti_flag: Total=3 (100.00%), Errors=3, Warnings=0
+INFO     root:qc_report_generator.py:1059 sub_array_sep_flag: Total=3 (100.00%), Errors=3, Warnings=0
+INFO     root:qc_report_generator.py:1059 cos_sep_flag: Total=3 (100.00%), Errors=3, Warnings=0
+INFO     root:qc_report_generator.py:1059 volume_flag: Total=3 (100.00%), Errors=3, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_depth_flag: Total=3 (100.00%), Errors=3, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_pressure_flag: Total=3 (100.00%), Errors=3, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_timing_flag: Total=3 (100.00%), Errors=3, Warnings=0
+INFO     root:qc_report_generator.py:1059 repeatability_flag: Total=3 (100.00%), Errors=3, Warnings=0
+INFO     root:qc_report_generator.py:1059 sma_flag: Total=3 (100.00%), Errors=3, Warnings=0
+INFO     root:qc_report_generator.py:1091 Overall QC Statistics:
+INFO     root:qc_report_generator.py:1092   Total Records: 3, Total Flags: 54
+INFO     root:qc_report_generator.py:1093   Error Rate: 100.00%
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:qc_report_generator.py:1014 Calculating error percentages...
+INFO     root:qc_report_generator.py:1027 Using all shot points, Total SP count=0
+WARNING  root:qc_report_generator.py:1039 Flag column sti_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1039 Flag column sub_array_sep_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1039 Flag column cos_sep_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1039 Flag column volume_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1039 Flag column gun_depth_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1039 Flag column gun_pressure_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1039 Flag column gun_timing_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1039 Flag column repeatability_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1039 Flag column sma_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1066 Repeatability Flag not found in the DataFrame.
+WARNING  root:qc_report_generator.py:1072 gun_depth_flag not found in the DataFrame.
+ERROR    root:qc_report_generator.py:1098 Error calculating percentages: "None of [Index(['sti_flag', 'sub_array_sep_flag', 'cos_sep_flag', 'volume_flag',\n       'gun_depth_flag', 'gun_pressure_flag', 'gun_timing_flag',\n       'repeatability_flag', 'sma_flag'],\n      dtype='object')] are in the [columns]"
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:qc_report_generator.py:1111 Logging flagged shot points...
+INFO     root:qc_report_generator.py:1210 Column 'Raw: SST_GUN1 #Autofires' not found, skipping autofire check
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:qc_report_generator.py:1111 Logging flagged shot points...
+INFO     root:qc_report_generator.py:1210 Column 'Raw: SST_GUN1 #Autofires' not found, skipping autofire check
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+INFO     root:qc_report_generator.py:1111 Logging flagged shot points...
+WARNING  root:qc_report_generator.py:1126 Flag column sub_array_sep_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1126 Flag column cos_sep_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1126 Flag column volume_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1126 Flag column gun_depth_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1126 Flag column gun_pressure_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1126 Flag column gun_timing_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1126 Flag column repeatability_flag not found in dataframe
+WARNING  root:qc_report_generator.py:1126 Flag column sma_flag not found in dataframe
+INFO     root:qc_report_generator.py:1210 Column 'Raw: SST_GUN1 #Autofires' not found, skipping autofire check
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+WARNING  root:qc_report_generator.py:136 Dither file not found at: N:\05_Internal_use_only\Scripts\PXGEONavQC_Version30\5-1_MT3007924_MMBC_TimeDithers.txt
+INFO     root:qc_report_generator.py:1014 Calculating error percentages...
+INFO     root:qc_report_generator.py:1027 Using all shot points, Total SP count=10000
+INFO     root:qc_report_generator.py:1059 sti_flag: Total=4964 (49.64%), Errors=4964, Warnings=0
+INFO     root:qc_report_generator.py:1059 sub_array_sep_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 cos_sep_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 volume_flag: Total=5022 (50.22%), Errors=5022, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_depth_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_pressure_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_timing_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 repeatability_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 sma_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1091 Overall QC Statistics:
+INFO     root:qc_report_generator.py:1092   Total Records: 10000, Total Flags: 19972
+INFO     root:qc_report_generator.py:1093   Error Rate: 11.10%
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: config.ini
+WARNING  root:qc_report_generator.py:136 Dither file not found at: N:\05_Internal_use_only\Scripts\PXGEONavQC_Version30\5-1_MT3007924_MMBC_TimeDithers.txt
+INFO     root:qc_report_generator.py:1014 Calculating error percentages...
+INFO     root:qc_report_generator.py:1027 Using all shot points, Total SP count=3
+INFO     root:qc_report_generator.py:1059 sti_flag: Total=1 (33.33%), Errors=1, Warnings=0
+INFO     root:qc_report_generator.py:1059 sub_array_sep_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 cos_sep_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 volume_flag: Total=1 (33.33%), Errors=1, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_depth_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_pressure_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 gun_timing_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 repeatability_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1059 sma_flag: Total=0 (0.00%), Errors=0, Warnings=0
+INFO     root:qc_report_generator.py:1091 Overall QC Statistics:
+INFO     root:qc_report_generator.py:1092   Total Records: 3, Total Flags: 4
+INFO     root:qc_report_generator.py:1093   Error Rate: 7.41%
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+WARNING  root:qc_validator.py:230 Missing STI column: Shot Time (s)  sec
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+INFO     root:qc_validator.py:254 Using separation columns: ['SOURCE SSTG1 towed by SST String 1 - 2 Crossline Separation All Shots ']
+INFO     root:qc_validator.py:266 Sub-array separation violations: 2/5 (40.00%)
+WARNING  root:qc_validator.py:269 Sub-array separation violations exceed 15.0% threshold
+INFO     root:qc_validator.py:278 Sub-array separation sequence average: 8.00m
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+INFO     root:qc_validator.py:254 Using separation columns: ['SOURCE SSTG1 towed by SST String 1 - 2 Crossline Separation All Shots ']
+INFO     root:qc_validator.py:266 Sub-array separation violations: 0/5 (0.00%)
+INFO     root:qc_validator.py:278 Sub-array separation sequence average: 7.88m
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+INFO     root:qc_validator.py:363 Found 2 gun depth sensors: ['SSTGM1D1_DPT (P) Shot Event m', 'SSTGM1D2_DPT (P) Shot Event m']
+INFO     root:qc_validator.py:389 Gun Depth Sensor 1 avg = 7.1 meters (OK)
+INFO     root:qc_validator.py:389 Gun Depth Sensor 2 avg = 7.1 meters (OK)
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:qc_validator.py:427 Starting gun timing validation...
+INFO     root:qc_validator.py:436 Found 2 gun timing columns
+INFO     root:qc_validator.py:441 Timing thresholds - Warning: 1.0, Error: 1.5
+INFO     root:qc_validator.py:456 Total misfire (90) occurrences: 1
+INFO     root:qc_validator.py:457 Total disabled gun (61) occurrences: 1
+INFO     root:qc_validator.py:462 Records with timing warnings: 1
+INFO     root:qc_validator.py:463 Records with timing errors: 1
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:qc_validator.py:427 Starting gun timing validation...
+INFO     root:qc_validator.py:436 Found 1 gun timing columns
+INFO     root:qc_validator.py:441 Timing thresholds - Warning: 1.0, Error: 1.5
+INFO     root:qc_validator.py:456 Total misfire (90) occurrences: 1
+INFO     root:qc_validator.py:457 Total disabled gun (61) occurrences: 1
+INFO     root:qc_validator.py:462 Records with timing warnings: 0
+INFO     root:qc_validator.py:463 Records with timing errors: 0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+INFO     root:qc_validator.py:174 Starting QC data validation...
+INFO     root:qc_validator.py:254 Using separation columns: ['SOURCE SSTG1 towed by SST String 1 - 2 Crossline Separation All Shots ']
+INFO     root:qc_validator.py:266 Sub-array separation violations: 2/5 (40.00%)
+WARNING  root:qc_validator.py:269 Sub-array separation violations exceed 15.0% threshold
+INFO     root:qc_validator.py:278 Sub-array separation sequence average: 8.00m
+DEBUG    root:qc_validator.py:427 Starting gun timing validation...
+INFO     root:qc_validator.py:436 Found 2 gun timing columns
+INFO     root:qc_validator.py:441 Timing thresholds - Warning: 1.0, Error: 1.5
+INFO     root:qc_validator.py:456 Total misfire (90) occurrences: 1
+INFO     root:qc_validator.py:457 Total disabled gun (61) occurrences: 1
+INFO     root:qc_validator.py:462 Records with timing warnings: 1
+INFO     root:qc_validator.py:463 Records with timing errors: 1
+WARNING  root:qc_validator.py:212 4 records flagged for sti_flag: Shot points: [1003, 1009]
+WARNING  root:qc_validator.py:212 4 records flagged for sub_array_sep_flag: Shot points: [1003, 1007]
+WARNING  root:qc_validator.py:212 4 records flagged for cos_sep_flag: Shot points: [1003, 1007]
+WARNING  root:qc_validator.py:212 2 records flagged for volume_flag: Shot points: [1005]
+WARNING  root:qc_validator.py:212 4 records flagged for gun_depth_flag: Shot points: [1005, 1009]
+WARNING  root:qc_validator.py:212 4 records flagged for gun_pressure_flag: Shot points: [1003, 1009]
+WARNING  root:qc_validator.py:212 3 records flagged for gun_timing_flag: Shot points: [1005, 1007]
+WARNING  root:qc_validator.py:212 2 records flagged for repeatability_flag: Shot points: [1003, 1009]
+WARNING  root:qc_validator.py:212 2 records flagged for sma_flag: Shot points: [1005]
+INFO     root:qc_validator.py:217 QC data validation completed
+DEBUG    root:qc_validator.py:218 Flags set: {'sti_flag': 4, 'sub_array_sep_flag': 4, 'cos_sep_flag': 4, 'volume_flag': 2, 'gun_depth_flag': 4, 'gun_pressure_flag': 4, 'gun_timing_flag': 3, 'repeatability_flag': 2, 'sma_flag': 2}
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+INFO     root:qc_validator.py:174 Starting QC data validation...
+INFO     root:qc_validator.py:254 Using separation columns: ['SOURCE SSTG1 towed by SST String 1 - 2 Crossline Separation All Shots ']
+INFO     root:qc_validator.py:266 Sub-array separation violations: 2/5 (40.00%)
+WARNING  root:qc_validator.py:269 Sub-array separation violations exceed 15.0% threshold
+INFO     root:qc_validator.py:278 Sub-array separation sequence average: 8.00m
+DEBUG    root:qc_validator.py:427 Starting gun timing validation...
+INFO     root:qc_validator.py:436 Found 2 gun timing columns
+INFO     root:qc_validator.py:441 Timing thresholds - Warning: 1.0, Error: 1.5
+INFO     root:qc_validator.py:456 Total misfire (90) occurrences: 1
+INFO     root:qc_validator.py:457 Total disabled gun (61) occurrences: 1
+INFO     root:qc_validator.py:462 Records with timing warnings: 1
+INFO     root:qc_validator.py:463 Records with timing errors: 1
+WARNING  root:qc_validator.py:212 4 records flagged for sti_flag: Shot points: [1003, 1009]
+WARNING  root:qc_validator.py:212 4 records flagged for sub_array_sep_flag: Shot points: [1003, 1007]
+WARNING  root:qc_validator.py:212 4 records flagged for cos_sep_flag: Shot points: [1003, 1007]
+WARNING  root:qc_validator.py:212 2 records flagged for volume_flag: Shot points: [1005]
+WARNING  root:qc_validator.py:212 4 records flagged for gun_depth_flag: Shot points: [1005, 1009]
+WARNING  root:qc_validator.py:212 4 records flagged for gun_pressure_flag: Shot points: [1003, 1009]
+WARNING  root:qc_validator.py:212 3 records flagged for gun_timing_flag: Shot points: [1005, 1007]
+WARNING  root:qc_validator.py:212 2 records flagged for repeatability_flag: Shot points: [1003, 1009]
+WARNING  root:qc_validator.py:212 2 records flagged for sma_flag: Shot points: [1005]
+INFO     root:qc_validator.py:217 QC data validation completed
+DEBUG    root:qc_validator.py:218 Flags set: {'sti_flag': 4, 'sub_array_sep_flag': 4, 'cos_sep_flag': 4, 'volume_flag': 2, 'gun_depth_flag': 4, 'gun_pressure_flag': 4, 'gun_timing_flag': 3, 'repeatability_flag': 2, 'sma_flag': 2}
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+INFO     root:qc_validator.py:502 Checking for consecutive errors...
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+INFO     root:qc_validator.py:502 Checking for consecutive errors...
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+WARNING  root:qc_validator.py:566 Found 6 missing shot points
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+INFO     root:qc_validator.py:585 Checking for source error patterns...
+INFO     root:qc_validator.py:600 Total SP with source errors: 8/20 (40.00%)
+WARNING  root:qc_validator.py:647 Found 2 instances of 7+ consecutive source errors
+WARNING  root:qc_validator.py:653 Source errors exceed 3% threshold: 40.00%
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+INFO     root:qc_validator.py:585 Checking for source error patterns...
+INFO     root:qc_validator.py:600 Total SP with source errors: 12/40 (30.00%)
+WARNING  root:qc_validator.py:649 Found 1 instances of 12+ errors in 24 SP window
+WARNING  root:qc_validator.py:653 Source errors exceed 3% threshold: 30.00%
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+INFO     root:qc_validator.py:585 Checking for source error patterns...
+INFO     root:qc_validator.py:600 Total SP with source errors: 5/100 (5.00%)
+WARNING  root:qc_validator.py:653 Source errors exceed 3% threshold: 5.00%
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+INFO     root:qc_validator.py:174 Starting QC data validation...
+INFO     root:qc_validator.py:254 Using separation columns: ['SOURCE SSTG1 towed by SST String 1 - 2 Crossline Separation All Shots ']
+INFO     root:qc_validator.py:266 Sub-array separation violations: 2/5 (40.00%)
+WARNING  root:qc_validator.py:269 Sub-array separation violations exceed 15.0% threshold
+INFO     root:qc_validator.py:278 Sub-array separation sequence average: 8.00m
+DEBUG    root:qc_validator.py:427 Starting gun timing validation...
+INFO     root:qc_validator.py:436 Found 2 gun timing columns
+INFO     root:qc_validator.py:441 Timing thresholds - Warning: 1.0, Error: 1.5
+INFO     root:qc_validator.py:456 Total misfire (90) occurrences: 1
+INFO     root:qc_validator.py:457 Total disabled gun (61) occurrences: 1
+INFO     root:qc_validator.py:462 Records with timing warnings: 1
+INFO     root:qc_validator.py:463 Records with timing errors: 1
+WARNING  root:qc_validator.py:212 4 records flagged for sti_flag: Shot points: [1003, 1009]
+WARNING  root:qc_validator.py:212 4 records flagged for sub_array_sep_flag: Shot points: [1003, 1007]
+WARNING  root:qc_validator.py:212 4 records flagged for cos_sep_flag: Shot points: [1003, 1007]
+WARNING  root:qc_validator.py:212 2 records flagged for volume_flag: Shot points: [1005]
+WARNING  root:qc_validator.py:212 4 records flagged for gun_depth_flag: Shot points: [1005, 1009]
+WARNING  root:qc_validator.py:212 4 records flagged for gun_pressure_flag: Shot points: [1003, 1009]
+WARNING  root:qc_validator.py:212 3 records flagged for gun_timing_flag: Shot points: [1005, 1007]
+WARNING  root:qc_validator.py:212 2 records flagged for repeatability_flag: Shot points: [1003, 1009]
+WARNING  root:qc_validator.py:212 2 records flagged for sma_flag: Shot points: [1005]
+INFO     root:qc_validator.py:217 QC data validation completed
+DEBUG    root:qc_validator.py:218 Flags set: {'sti_flag': 4, 'sub_array_sep_flag': 4, 'cos_sep_flag': 4, 'volume_flag': 2, 'gun_depth_flag': 4, 'gun_pressure_flag': 4, 'gun_timing_flag': 3, 'repeatability_flag': 2, 'sma_flag': 2}
+INFO     root:qc_validator.py:700 Generating line log report...
+INFO     root:qc_validator.py:808 Column 'Raw: SST_GUN1 #Autofires' not found, skipping autofire check
+INFO     root:qc_validator.py:363 Found 2 gun depth sensors: ['SSTGM1D1_DPT (P) Shot Event m', 'SSTGM1D2_DPT (P) Shot Event m']
+INFO     root:qc_validator.py:389 Gun Depth Sensor 1 avg = 7.1 meters (OK)
+INFO     root:qc_validator.py:389 Gun Depth Sensor 2 avg = 7.1 meters (OK)
+INFO     root:qc_validator.py:585 Checking for source error patterns...
+INFO     root:qc_validator.py:600 Total SP with source errors: 4/5 (80.00%)
+WARNING  root:qc_validator.py:653 Source errors exceed 3% threshold: 80.00%
+INFO     root:qc_validator.py:873 Generated line log report with 15 entries
+DEBUG    root:config_manager.py:42 ConfigManager initialized with path: /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:config_manager.py:65 Configuration loaded successfully from /mnt/c/00_QGIS_GM/PXGEONavQC_Version23/config.ini
+INFO     root:qc_validator.py:97 Loading QC thresholds from config...
+INFO     root:qc_validator.py:153 Loaded thresholds from config:
+INFO     root:qc_validator.py:156   sti_warning_lower: 6.175
+INFO     root:qc_validator.py:156   sti_warning_upper: 10.0
+INFO     root:qc_validator.py:156   sti_error: 6.0
+INFO     root:qc_validator.py:156   sub_array_sep_min: 6.8
+INFO     root:qc_validator.py:156   sub_array_sep_max: 9.2
+INFO     root:qc_validator.py:156   sub_array_sep_percent_threshold: 15.0
+INFO     root:qc_validator.py:156   sub_array_sep_avg_min: 7.2
+INFO     root:qc_validator.py:156   sub_array_sep_avg_max: 8.8
+INFO     root:qc_validator.py:156   dual_cos_min: 33.75
+INFO     root:qc_validator.py:156   dual_cos_max: 41.25
+INFO     root:qc_validator.py:156   triple_cos_min: 33.75
+INFO     root:qc_validator.py:156   triple_cos_max: 41.25
+INFO     root:qc_validator.py:156   volume_nominal: 3040.0
+INFO     root:qc_validator.py:156   gun_depth_min: -8.0
+INFO     root:qc_validator.py:156   gun_depth_max: -6.0
+INFO     root:qc_validator.py:156   gun_depth_nominal: -7.0
+INFO     root:qc_validator.py:156   gun_depth_sensor_min: -7.5
+INFO     root:qc_validator.py:156   gun_depth_sensor_max: -6.5
+INFO     root:qc_validator.py:156   gun_depth_nominal_tolerance: 1.0
+INFO     root:qc_validator.py:156   gun_depth_avg_tolerance: 0.5
+INFO     root:qc_validator.py:156   gun_pressure_min: 1900.0
+INFO     root:qc_validator.py:156   gun_pressure_max: 2100.0
+INFO     root:qc_validator.py:156   gun_pressure_nominal: 2000.0
+INFO     root:qc_validator.py:156   timing_warning: 1.0
+INFO     root:qc_validator.py:156   timing_error: 1.5
+INFO     root:qc_validator.py:156   crossline_limit: 10.0
+INFO     root:qc_validator.py:156   radial_limit: 10.0
+INFO     root:qc_validator.py:156   sma_limit: 3.0
+INFO     root:qc_validator.py:156   shot_increment: 2
+INFO     root:qc_validator.py:156   consecutive_error_limit: 25
+INFO     root:qc_validator.py:156   consec_error_window_7: 7
+INFO     root:qc_validator.py:156   consec_error_window_24: 24
+INFO     root:qc_validator.py:156   consec_error_threshold_12_of_24: 12
+INFO     root:qc_validator.py:156   consec_error_window_40: 40
+INFO     root:qc_validator.py:156   consec_error_threshold_16_of_40: 16
+INFO     root:qc_validator.py:156   consec_error_percent_total: 3.0
+DEBUG    root:qc_validator.py:427 Starting gun timing validation...
+INFO     root:qc_validator.py:436 Found 2 gun timing columns
+INFO     root:qc_validator.py:441 Timing thresholds - Warning: 1.0, Error: 1.5
+INFO     root:qc_validator.py:456 Total misfire (90) occurrences: 0
+INFO     root:qc_validator.py:457 Total disabled gun (61) occurrences: 0
+INFO     root:qc_validator.py:462 Records with timing warnings: 1
+INFO     root:qc_validator.py:463 Records with timing errors: 1
+INFO     root:qc_validator.py:700 Generating line log report...
+INFO     root:qc_validator.py:808 Column 'Raw: SST_GUN1 #Autofires' not found, skipping autofire check
+WARNING  root:qc_validator.py:360 No gun depth sensor columns found in dataframe
+INFO     root:qc_validator.py:585 Checking for source error patterns...
+INFO     root:qc_validator.py:600 Total SP with source errors: 1/3 (33.33%)
+WARNING  root:qc_validator.py:653 Source errors exceed 3% threshold: 33.33%
+INFO     root:qc_validator.py:873 Generated line log report with 14 entries
